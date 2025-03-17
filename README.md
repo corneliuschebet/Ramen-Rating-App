@@ -1,16 +1,17 @@
 # FOOD REVIEW
--This application is for reviewing foods in a restraunt.
+This application is for rating Ramens foods in a restaurant
 
 # TECHNOLOGIES USED
--HTML
--CSS
--JavaScript
--Bootstrap
+HTML
+CSS
+JavaScript
+
 
 # HOW TO SET IT UP
--clone the repo link
--cd into the repo directory
--run it using live-server
+fork the repo
+clone the repo link
+cd into the repo directory
+run it using live-server
 
 # CREATED BY 
-Cornelius Chebet
+Cornelius Chebet Chemutai
