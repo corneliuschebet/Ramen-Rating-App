@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "id": 1,
             "name": "Shoyu Ramen",
             "restaurant": "Nonono",
-            "image": "./images/shoyu.jpg",
+            "image": "./shoyu.jpg",
             "rating": 7,
             "comment": "Delish. Can't go wrong with a classic!"
         },
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "id": 2,
             "name": "Naruto Ramen",
             "restaurant": "Naruto",
-            "image": "./images/naruto.jpg",
+            "image": "./naruto.jpg",
             "rating": 10,
             "comment": "My absolute fave!"
         },
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "id": 3,
             "name": "Nirvana Shiromaru",
             "restaurant": "Ippudo",
-            "image": "./images/nirvana.jpg",
+            "image": "./nirvana.jpg",
             "rating": 7,
             "comment": "Do buy the hype."
         },
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "id": 4,
             "name": "Gyukotsu Ramen",
             "restaurant": "Za-Ya Ramen",
-            "image": "./images/gyukotsu.jpg",
+            "image": "./gyukotsu.jpg",
             "rating": 8,
             "comment": "Good to the last drop."
         }
