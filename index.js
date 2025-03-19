@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Document Loaded");
   
-    // Ramen data
     const ramen = [
         {
             "id": 1,
@@ -37,12 +36,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     ];
   
-    // Display all ramen images in the menu
     function displayRamens() {
         ramen.forEach(addRamenToMenu);
     }
   
-    // Adds ramen image to the menu and sets up click event
     function addRamenToMenu(ramen) {
         const ramenMenu = document.getElementById("ramen-menu");
         const img = document.createElement("img");
@@ -54,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
         ramenMenu.appendChild(img);
     }
   
-    // Updates the detailed ramen section when clicked
     function handleClick(ramen) {
         document.querySelector(".detail-image").src = ramen.image;
         document.querySelector(".name").textContent = ramen.name;
@@ -63,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("comment-display").textContent = ramen.comment;
     }
   
-    // Handles adding a new ramen from the form
+
     function addSubmitListener() {
         document.getElementById("new-ramen").addEventListener("submit", (event) => {
             event.preventDefault();
